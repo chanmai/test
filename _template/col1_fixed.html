@@ -7,6 +7,7 @@
 <title>■■ページタイトル■■ | ■■サイト名■■</title>
 <link rel="stylesheet" href="/test/assets/css/common.css" media="screen,print">
 <link rel="stylesheet" href="/test/assets/css/print.css" media="print">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap">
 <script type="text/javascript" src="/test/assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="/test/assets/js/common.js"></script>
 
@@ -37,220 +38,229 @@
 				<li><a href="__temporary__.html" class="prj-icon-arrow">お問い合わせ</a></li>
 				<li><a href="__temporary__.html" class="prj-icon-arrow">ログイン</a></li>
 			</ul>
-			<div id="prj-block-headerBurger"><button type="button" aria-controls="prj-block-globalNav" aria-expanded="false">メニュー</button></div>
-			<nav id="prj-block-globalNav" aria-hidden="true">
-				<ul id="prj-block-globalNav__list">
-					<li><button type="button" class="prj-gpjs-accordion prj-icon-toggle" aria-controls="prj-block-globalNav__cat1" aria-expanded="false">カテゴリ名1</button>
-						<ul id="prj-block-globalNav__cat1" aria-hidden="true">
-							<li><a href="__temporary__.html">カテゴリトップ</a></li>
-							<li><a href="__temporary__.html">リンクテキスト1</a></li>
-							<li><a href="__temporary__.html">リンクテキスト2</a></li>
-							<li><a href="__temporary__.html">リンクテキスト3</a></li>
-							<li><a href="__temporary__.html">リンクテキスト4</a></li>
-						</ul>
+			
+			<nav id="prj-block-hamburger">
+				<div id="prj-block-hamburger__btn"><button type="button" aria-controls="prj-block-hamburger__body" aria-expanded="false">メニュー</button></div>
+				<div id="prj-block-hamburger__body" aria-hidden="true">
+					<ul id="prj-block-hamburger__body__list">
+						<li>
+							<button type="button" class="prj-gpjs-accordion prj-icon-toggle" aria-controls="prj-block-hamburger__cat1" aria-expanded="false">カテゴリ名1</button>
+							<ul id="prj-block-hamburger__cat1" aria-hidden="true">
+								<li><a href="__temporary__.html">カテゴリトップ</a></li>
+								<li><a href="__temporary__.html">リンクテキスト1</a></li>
+								<li><a href="__temporary__.html">リンクテキスト2</a></li>
+								<li><a href="__temporary__.html">リンクテキスト3</a></li>
+								<li><a href="__temporary__.html">リンクテキスト4</a></li>
+							</ul>
+						</li>
+						<li>
+							<button type="button" class="prj-gpjs-accordion prj-icon-toggle" aria-controls="prj-block-hamburger__cat2" aria-expanded="false">カテゴリ名2</button>
+							<ul id="prj-block-hamburger__cat2" aria-hidden="true">
+								<li><a href="__temporary__.html">カテゴリトップ</a></li>
+								<li><a href="__temporary__.html">リンクテキスト1</a></li>
+								<li><a href="__temporary__.html">リンクテキスト2</a></li>
+								<li><a href="__temporary__.html">リンクテキスト3</a></li>
+								<li><a href="__temporary__.html">リンクテキスト4</a></li>
+							</ul>
+						</li>
+						<li>
+							<button type="button" class="prj-gpjs-accordion prj-icon-toggle" aria-controls="prj-block-hamburger__cat3" aria-expanded="false">カテゴリ名3</button>
+							<ul id="prj-block-hamburger__cat3" aria-hidden="true">
+								<li><a href="__temporary__.html">カテゴリトップ</a></li>
+								<li><a href="__temporary__.html">リンクテキスト1</a></li>
+								<li><a href="__temporary__.html">リンクテキスト2</a></li>
+								<li><a href="__temporary__.html">リンクテキスト3</a></li>
+								<li><a href="__temporary__.html">リンクテキスト4</a></li>
+							</ul>
+						</li>
+						<li>
+							<button type="button" class="prj-gpjs-accordion prj-icon-toggle" aria-controls="prj-block-hamburger__cat4" aria-expanded="false">カテゴリ名4</button>
+							<ul id="prj-block-hamburger__cat4" aria-hidden="true">
+								<li><a href="__temporary__.html">カテゴリトップ</a></li>
+								<li><a href="__temporary__.html">リンクテキスト1</a></li>
+								<li><a href="__temporary__.html">リンクテキスト2</a></li>
+								<li><a href="__temporary__.html">リンクテキスト3</a></li>
+								<li><a href="__temporary__.html">リンクテキスト4</a></li>
+							</ul>
+						</li>
+					</ul>
+					<div id="prj-block-hamburger__body__close"><button type="button">閉じる</button></div>
+				</div>
+			</nav>
+
+			<nav id="prj-block-megaMenu">
+				<ul>
+					<li><a href="__temporary__.html" role="button" class="prj-block-megaMenu__btn prj-icon-toggle" aria-controls="prj-block-megaMenu__cat1" aria-expanded="false">カテゴリ名1</a>
+						<div id="prj-block-megaMenu__cat1" class="prj-block-megaMenu__panel" aria-hidden="true">
+							<div class="prj-block-megaMenu__panel__header">
+								<p>カテゴリ名1</p>
+								<ul class="prj-block-inlineLinkListA01">
+									<li><a href="__temporary__.html" class="prj-icon-arrow">カテゴリ名1トップ</a></li>
+									<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+									<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+								</ul>
+							</div>
+							<div class="prj-block-megaMenu__panel__contents">
+								<div class="prj-block-layoutBlock">
+									<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
+										<ul class="prj-block-linkListA01">
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+										</ul>
+									</div>
+									<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
+										<ul class="prj-block-linkListA01">
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+										</ul>
+									</div>
+									<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
+										<ul class="prj-block-linkListA01">
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+										</ul>
+									</div>
+									<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
+										<p class="prj-block-para">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</li>
-					<li><button type="button" class="prj-gpjs-accordion prj-icon-toggle" aria-controls="prj-block-globalNav__cat2" aria-expanded="false">カテゴリ名2</button>
-						<ul id="prj-block-globalNav__cat2" aria-hidden="true">
-							<li><a href="__temporary__.html">カテゴリトップ</a></li>
-							<li><a href="__temporary__.html">リンクテキスト1</a></li>
-							<li><a href="__temporary__.html">リンクテキスト2</a></li>
-							<li><a href="__temporary__.html">リンクテキスト3</a></li>
-							<li><a href="__temporary__.html">リンクテキスト4</a></li>
-						</ul>
+					<li><a href="__temporary__.html" role="button" class="prj-block-megaMenu__btn prj-icon-toggle" aria-controls="prj-block-megaMenu__cat2" aria-expanded="false">カテゴリ名2</a>
+						<div id="prj-block-megaMenu__cat2" class="prj-block-megaMenu__panel" aria-hidden="true">
+							<div class="prj-block-megaMenu__panel__header">
+								<p>カテゴリ名2</p>
+								<ul class="prj-block-inlineLinkListA01">
+									<li><a href="__temporary__.html" class="prj-icon-arrow">カテゴリ名2トップ</a></li>
+									<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+									<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+								</ul>
+							</div>
+							<div class="prj-block-megaMenu__panel__contents">
+								<div class="prj-block-layoutBlock">
+									<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
+										<ul class="prj-block-linkListA01">
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+										</ul>
+									</div>
+									<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
+										<ul class="prj-block-linkListA01">
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+										</ul>
+									</div>
+									<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
+										<ul class="prj-block-linkListA01">
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+										</ul>
+									</div>
+									<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
+										<p class="prj-block-para">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</li>
-					<li><button type="button" class="prj-gpjs-accordion prj-icon-toggle" aria-controls="prj-block-globalNav__cat3" aria-expanded="false">カテゴリ名3</button>
-						<ul id="prj-block-globalNav__cat3" aria-hidden="true">
-							<li><a href="__temporary__.html">カテゴリトップ</a></li>
-							<li><a href="__temporary__.html">リンクテキスト1</a></li>
-							<li><a href="__temporary__.html">リンクテキスト2</a></li>
-							<li><a href="__temporary__.html">リンクテキスト3</a></li>
-							<li><a href="__temporary__.html">リンクテキスト4</a></li>
-						</ul>
+					<li><a href="__temporary__.html" role="button" class="prj-block-megaMenu__btn prj-icon-toggle" aria-controls="prj-block-megaMenu__cat3" aria-expanded="false">カテゴリ名3</a>
+						<div id="prj-block-megaMenu__cat3" class="prj-block-megaMenu__panel" aria-hidden="true">
+							<div class="prj-block-megaMenu__panel__header">
+								<p>カテゴリ名3</p>
+								<ul class="prj-block-inlineLinkListA01">
+									<li><a href="__temporary__.html" class="prj-icon-arrow">カテゴリ名3トップ</a></li>
+									<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+									<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+								</ul>
+							</div>
+							<div class="prj-block-megaMenu__panel__contents">
+								<div class="prj-block-layoutBlock">
+									<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
+										<ul class="prj-block-linkListA01">
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+										</ul>
+									</div>
+									<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
+										<ul class="prj-block-linkListA01">
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+										</ul>
+									</div>
+									<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
+										<ul class="prj-block-linkListA01">
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+										</ul>
+									</div>
+									<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
+										<p class="prj-block-para">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</li>
-					<li><button type="button" class="prj-gpjs-accordion prj-icon-toggle" aria-controls="prj-block-globalNav__cat4" aria-expanded="false">カテゴリ名4</button>
-						<ul id="prj-block-globalNav__cat4" aria-hidden="true">
-							<li><a href="__temporary__.html">カテゴリトップ</a></li>
-							<li><a href="__temporary__.html">リンクテキスト1</a></li>
-							<li><a href="__temporary__.html">リンクテキスト2</a></li>
-							<li><a href="__temporary__.html">リンクテキスト3</a></li>
-							<li><a href="__temporary__.html">リンクテキスト4</a></li>
-						</ul>
+					<li><a href="__temporary__.html" role="button" class="prj-block-megaMenu__btn prj-icon-toggle" aria-controls="prj-block-megaMenu__cat4" aria-expanded="false">カテゴリ名4</a>
+						<div id="prj-block-megaMenu__cat4" class="prj-block-megaMenu__panel" aria-hidden="true">
+							<div class="prj-block-megaMenu__panel__header">
+								<p>カテゴリ名4</p>
+								<ul class="prj-block-inlineLinkListA01">
+									<li><a href="__temporary__.html" class="prj-icon-arrow">カテゴリ名4トップ</a></li>
+									<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+									<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+								</ul>
+							</div>
+							<div class="prj-block-megaMenu__panel__contents">
+								<div class="prj-block-layoutBlock">
+									<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
+										<ul class="prj-block-linkListA01">
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+										</ul>
+									</div>
+									<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
+										<ul class="prj-block-linkListA01">
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+										</ul>
+									</div>
+									<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
+										<ul class="prj-block-linkListA01">
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+											<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
+										</ul>
+									</div>
+									<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
+										<p class="prj-block-para">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</li>
 				</ul>
-				<div id="prj-block-globalNav__close"><button type="button">閉じる</button></div>
 			</nav>
-			<ul id="prj-block-megaMenuLinks">
-				<li><button type="button" class="prj-icon-toggle" aria-controls="prj-block-megaMenuPanel__cat1" aria-expanded="false">カテゴリ名1</button></li>
-				<li><button type="button" class="prj-icon-toggle" aria-controls="prj-block-megaMenuPanel__cat2" aria-expanded="false">カテゴリ名2</button></li>
-				<li><button type="button" class="prj-icon-toggle" aria-controls="prj-block-megaMenuPanel__cat3" aria-expanded="false">カテゴリ名3</button></li>
-				<li><button type="button" class="prj-icon-toggle" aria-controls="prj-block-megaMenuPanel__cat4" aria-expanded="false">カテゴリ名4</button></li>
-			</ul>
+			
 		</header>
 	<!-- /structure__contents --></div>
 <!-- /structure --></div>
 <!-- /[[[ HEADER-AREA ]]] -->
-<!-- [[[ MEGA-MENU-AREA ]]] -->
-<div id="prj-area-megaMenu" class="prj-structure">
-	<div class="prj-structure__contents">
-		<div id="prj-block-megaMenuPanel__cat1" class="prj-block-megaMenuPanel" aria-hidden="true">
-			<div class="prj-block-megaMenuPanel__header">
-				<p>カテゴリ名1</p>
-				<ul class="prj-block-inlineLinkListA01">
-					<li><a href="__temporary__.html" class="prj-icon-arrow">カテゴリ名1トップ</a></li>
-					<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-					<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-				</ul>
-			</div>
-			<div class="prj-block-megaMenuPanel__contents">
-				<div class="prj-block-layoutBlock">
-					<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
-						<ul class="prj-block-linkListA01">
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-						</ul>
-					</div>
-					<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
-						<ul class="prj-block-linkListA01">
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-						</ul>
-					</div>
-					<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
-						<ul class="prj-block-linkListA01">
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-						</ul>
-					</div>
-					<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
-						<p class="prj-block-para">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="prj-block-megaMenuPanel__cat2" class="prj-block-megaMenuPanel" aria-hidden="true">
-			<div class="prj-block-megaMenuPanel__header">
-				<p>カテゴリ名2</p>
-				<ul class="prj-block-inlineLinkListA01">
-					<li><a href="__temporary__.html" class="prj-icon-arrow">カテゴリ名2トップ</a></li>
-					<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-					<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-				</ul>
-			</div>
-			<div class="prj-block-megaMenuPanel__contents">
-				<div class="prj-block-layoutBlock">
-					<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
-						<ul class="prj-block-linkListA01">
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-						</ul>
-					</div>
-					<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
-						<ul class="prj-block-linkListA01">
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-						</ul>
-					</div>
-					<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
-						<ul class="prj-block-linkListA01">
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-						</ul>
-					</div>
-					<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
-						<p class="prj-block-para">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="prj-block-megaMenuPanel__cat3" class="prj-block-megaMenuPanel" aria-hidden="true">
-			<div class="prj-block-megaMenuPanel__header">
-				<p>カテゴリ名3</p>
-				<ul class="prj-block-inlineLinkListA01">
-					<li><a href="__temporary__.html" class="prj-icon-arrow">カテゴリ名3トップ</a></li>
-					<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-					<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-				</ul>
-			</div>
-			<div class="prj-block-megaMenuPanel__contents">
-				<div class="prj-block-layoutBlock">
-					<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
-						<ul class="prj-block-linkListA01">
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-						</ul>
-					</div>
-					<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
-						<ul class="prj-block-linkListA01">
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-						</ul>
-					</div>
-					<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
-						<ul class="prj-block-linkListA01">
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-						</ul>
-					</div>
-					<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
-						<p class="prj-block-para">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="prj-block-megaMenuPanel__cat4" class="prj-block-megaMenuPanel" aria-hidden="true">
-			<div class="prj-block-megaMenuPanel__header">
-				<p>カテゴリ名4</p>
-				<ul class="prj-block-inlineLinkListA01">
-					<li><a href="__temporary__.html" class="prj-icon-arrow">カテゴリ名4トップ</a></li>
-					<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-					<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-				</ul>
-			</div>
-			<div class="prj-block-megaMenuPanel__contents">
-				<div class="prj-block-layoutBlock">
-					<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
-						<ul class="prj-block-linkListA01">
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-						</ul>
-					</div>
-					<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
-						<ul class="prj-block-linkListA01">
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-						</ul>
-					</div>
-					<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
-						<ul class="prj-block-linkListA01">
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-							<li><a href="__temporary__.html" class="prj-icon-arrow">リンクテキスト</a></li>
-						</ul>
-					</div>
-					<div class="prj-block-layoutBlock__container prj-block-layoutBlock__col--1/4">
-						<p class="prj-block-para">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	<!-- /structure__contents --></div>
-<!-- /structure --></div>
-<!-- /[[[ MEGA-MENU-AREA ]]] -->
 
 <!-- [[[ MAIN-AREA ]]] -->
 <div id="prj-area-main" class="prj-structure">
